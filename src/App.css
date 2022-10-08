@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+form {
+  margin: 0 auto;
+  width: 500px;
+  min-height: 360px;
+  display: flex;
+border-radius: 20px;
+position: relative;
+top: 190px;
+
+}
+form input{
+  
+  padding: 5px;
+  width: 70%;
+  border-radius: 10px;
+  
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.864);
+  color: black;
+}
+
+form input:focus-visible{
+  outline: #5a67d8 solid 2px;
+
+}
+form input::placeholder{
+  border: none;
+  color: black;
+}
+.loginSubmit{
+  width: 250px !important;
+}
+.loginSubmit:hover{
+
+  transition: all 1s;
+  cursor: pointer;
+}
+.registerLink:hover{
+  color: #5a67d8;
+  transition: all 0.8s;
+}
